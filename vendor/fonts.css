@@ -1,0 +1,13 @@
+@font-face {
+    src: url(../fonts/RoadRadio-Bold.woff) format("woff"),
+        url(../fonts/RoadRadio-Bold.ttf) format("truetype");
+    font-family: "RoadRadio";
+    font-weight: 700;
+}
+
+@font-face {
+    src: url(../fonts/Roboto-Regular.woff) format("woff"),
+        url(../fonts/Roboto-Regular.ttf) format("truetype");
+    font-family: "Roboto";
+    font-weight: 400;
+}
