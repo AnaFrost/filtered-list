@@ -1,0 +1,16 @@
+.pane__button {
+  cursor: pointer;
+  padding: 10px 18px;
+  background-color: #292929;
+  color: #fff;
+  border-radius: 3px;
+  border: 1px solid #292929;
+  transition: 0.3s opacity ease-in;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.pane__button:hover {
+  opacity: 0.75;
+  transition: 0.3s opacity ease-in;
+}

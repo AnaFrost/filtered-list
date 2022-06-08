@@ -1,0 +1,8 @@
+@import url(./pane__button.css);
+@import url(./pane__button_active.css);
+
+.pane__buttons {
+  display: flex;
+  column-gap: 16px;
+  align-items: center;
+}

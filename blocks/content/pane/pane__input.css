@@ -1,0 +1,8 @@
+.pane__input {
+    width: 244px;
+    height: 42px;
+    font-size: 16px;
+    line-height: 19px;
+    padding-left: 14px;
+    border: 1px solid #CACACA;
+}

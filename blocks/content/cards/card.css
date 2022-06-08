@@ -1,0 +1,17 @@
+@import url(./card__name.css);
+@import url(./card__email.css);
+@import url(./card__body.css);
+
+.card {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  background-color: #fff;
+  width: 100%;
+  max-width: 1270px;
+  font-family: "Roboto";
+  box-sizing: border-box;
+  padding: 26px;
+  row-gap: 8px;
+}

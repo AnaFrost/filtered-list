@@ -1,0 +1,9 @@
+@import url(./pane/pane.css);
+@import url(./cards/cards.css);
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}

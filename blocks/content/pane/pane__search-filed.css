@@ -1,0 +1,7 @@
+@import url(./pane__input-title.css);
+@import url(./pane__input.css);
+
+.pane__search-filed {
+  display: flex;
+  align-items: center;
+}

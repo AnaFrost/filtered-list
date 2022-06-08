@@ -1,0 +1,10 @@
+.pane__button_active {
+  cursor: pointer;
+  padding: 10px 18px;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  font-size: 18px;
+  line-height: 21px;
+}
