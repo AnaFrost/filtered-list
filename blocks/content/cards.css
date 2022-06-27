@@ -1,0 +1,60 @@
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #e5e5e5;
+    padding: 44px 0;
+    margin: 0;
+    row-gap: 24px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    background-color: #fff;
+    width: 100%;
+    max-width: 1270px;
+    font-family: "Roboto";
+    box-sizing: border-box;
+    padding: 26px;
+    row-gap: 8px;
+}
+
+.card__name {
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+.card__email {
+    color: #959595;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.card__body {
+    font-size: 16px;
+    line-height: 19px;
+    max-width: 1217px;
+}
+
+@media (max-width: 1280px) {
+    .card {
+        max-width: 960px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .card {
+        max-width: 880px;
+    }
+}
+
+@media (max-width: 880px) {
+    .card {
+        max-width: 800px;
+    }
+}

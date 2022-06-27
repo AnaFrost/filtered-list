@@ -1,9 +1,15 @@
-@import url(./header__title.css);
-
 .header {
-    width: 100%;
-    height: 132px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  height: 132px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__title {
+  width: 438px;
+  font-family: "RoadRadio";
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 64px;
 }

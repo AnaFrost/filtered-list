@@ -1,0 +1,82 @@
+.pane {
+    position: sticky;
+    top: 0;
+    font-family: "Roboto";
+    width: 100%;
+    height: 90px;
+    background-color: #2753f0;
+    display: flex;
+    align-items: center;
+}
+
+.pane__search-filed {
+    display: flex;
+    align-items: center;
+}
+
+.pane__input {
+    width: 244px;
+    height: 42px;
+    font-size: 16px;
+    line-height: 19px;
+    padding-left: 14px;
+    border: 1px solid #cacaca;
+}
+
+.pane__input-title {
+    color: #fff;
+    font-size: 18px;
+    line-height: 21px;
+    padding-left: 65px;
+    padding-right: 13px;
+}
+
+.pane__buttons {
+    display: flex;
+    column-gap: 16px;
+    align-items: center;
+}
+
+.pane__button {
+    cursor: pointer;
+    padding: 10px 18px;
+    background-color: #292929;
+    color: #fff;
+    border-radius: 3px;
+    border: 1px solid #292929;
+    transition: 0.3s opacity ease-in;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.pane__button:hover {
+    opacity: 0.75;
+    transition: 0.3s opacity ease-in;
+}
+
+.active {
+    cursor: pointer;
+    padding: 10px 18px;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.pane__li-element {
+    list-style-type: none;
+}
+
+@media (max-width: 880px) {
+    .pane {
+        flex-direction: column;
+        align-items: start;
+        height: 130px;
+        padding-top: 20px;
+    }
+    .pane__buttons {
+        padding-left: 0;
+    }
+}

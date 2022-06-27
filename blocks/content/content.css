@@ -1,5 +1,5 @@
-@import url(./pane/pane.css);
-@import url(./cards/cards.css);
+@import url(./pane.css);
+@import url(./cards.css);
 
 .content {
   display: flex;

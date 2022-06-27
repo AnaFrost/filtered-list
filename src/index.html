@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>filtered list</title>
+    </head>
+    <body>
+        <div class="page">
+            <header class="header">
+                <h1 class="header__title">FILTERED LIST</h1>
+            </header>
+            <main class="content">
+                <section class="pane">
+                    <div class="pane__search-filed">
+                        <span class="pane__input-title">Search</span>
+                        <input
+                            type="search"
+                            class="pane__input"
+                            placeholder="Enter Name"
+                            name="name"
+                        />
+                    </div>
+                    <ul class="pane__buttons">
+                        <span class="pane__input-title">Show only</span>
+                        <li class="pane__li-element">
+                            <button class="pane__button button_type_org active">
+                                .org
+                            </button>
+                        </li>
+                        <li class="pane__li-element">
+                            <button class="pane__button button_type_com">
+                                .com
+                            </button>
+                        </li>
+                        <li class="pane__li-element">
+                            <button class="pane__button button_type_biz">
+                                .biz
+                            </button>
+                        </li>
+                    </ul>
+                </section>
+                <ul class="cards"></ul>
+            </main>
+        </div>
+    </body>
+</html>
